@@ -4,7 +4,7 @@ Interface in java
 
 
 interface Animal{
-    void sound();//implicitly public abstract
+    public abstract void sound();//implicitly public abstract
     //protective is not allowed in the interface
     //public by default is the abstract
     public void run();
